@@ -61,6 +61,7 @@ span {
 }
 .about-write {
   width: 50%;
+  padding-right: 300px;
 }
 .about-write h1 {
   padding-top: 150px;
@@ -81,4 +82,13 @@ span {
   width: 50%;
   object-fit: cover;
   margin-bottom: -6px;
+}
+.racipy-heading {
+  text-align: center;
+}
+.racipy-heading h1 {
+  padding: 50px 0;
+}
+.racipy-heading p {
+  padding: 0 300px;
 }
