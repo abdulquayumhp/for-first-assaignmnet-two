@@ -88,7 +88,36 @@ span {
 }
 .racipy-heading h1 {
   padding: 50px 0;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.61);
 }
 .racipy-heading p {
-  padding: 0 300px;
+  padding: 0 500px;
+  padding-bottom: 50px;
+}
+.recipy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.recipy-box-one {
+  margin: 0 10px;
+  width: 40%;
+  box-shadow: rgba(184, 172, 172, 0.39) 0px 18px 100px 0px;
+  border-radius: 30px;
+}
+.recipy-box-one img {
+  border: 20px solid #fff;
+  border-radius: 40px;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.recipy-box-one h1 {
+  padding-left: 20px;
+  font-size: 2rem;
+}
+.recipy-box-one p {
+  padding: 20px 0 30px 20px;
 }
