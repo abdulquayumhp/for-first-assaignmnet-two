@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap");
 
 * {
   margin: 0;
@@ -99,7 +99,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .recipy-box-one {
   margin: 0 10px;
@@ -120,4 +120,59 @@ span {
 }
 .recipy-box-one p {
   padding: 20px 0 30px 20px;
+}
+
+/* count section start  */
+/* count section start  */
+/* count section start  */
+
+.count-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(184, 172, 172, 0.39) 0px 18px 100px 0px;
+  padding: 50px 130px;
+  border-radius: 30px;
+}
+.count-box-one {
+  /* text-align: center; */
+  background: #fff;
+  padding: 0 135px;
+}
+.count-box-one h1 {
+  font-size: 2.5rem;
+}
+.count-box-one h3 {
+  font-weight: 300;
+  font-size: 1rem;
+}
+/* footer section end  */
+/* footer section end  */
+/* footer section end  */
+/* footer section end  */
+/* footer section end  */
+.footer-section {
+  text-align: center;
+  background: #000;
+}
+.footer-container h1 {
+  color: rgb(65, 39, 39);
+  font-size: 2rem;
+  padding-top: 50px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.footer-container h4 {
+  color: rgb(187, 161, 161);
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-bottom: 40px;
+  white-space: 2px;
 }
