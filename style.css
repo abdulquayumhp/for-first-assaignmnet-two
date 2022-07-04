@@ -18,11 +18,11 @@ span {
 .hero-section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-bottom: 150px;
 }
 .hero-write {
   width: 50%;
-  padding: 3% 0% 0 9%;
+  padding: 12% 0% 0 9%;
 }
 .hero-write h1 {
   font-size: 5rem;
@@ -34,7 +34,7 @@ span {
   margin-bottom: 50px;
   color: rgba(83, 62, 19, 0.76);
 }
-.hero-write a {
+.button {
   padding: 15px 40px;
   border-radius: 30px;
   color: #fff;
@@ -47,4 +47,38 @@ span {
 
 .hero-image img {
   width: 80%;
+}
+
+/* about section image  */
+/* about section image  */
+.section-about {
+  background: url(images/shapes/7.png);
+  background-size: cover;
+}
+.about-section {
+  display: flex;
+  justify-content: center;
+}
+.about-write {
+  width: 50%;
+}
+.about-write h1 {
+  padding-top: 150px;
+  font-size: 4rem;
+  padding-bottom: 50px;
+  color: rgba(0, 0, 0, 0.671);
+}
+.about-write p {
+  padding-bottom: 100px;
+}
+
+.about-image {
+  width: 50%;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.about-image img {
+  width: 50%;
+  object-fit: cover;
+  margin-bottom: -6px;
 }
